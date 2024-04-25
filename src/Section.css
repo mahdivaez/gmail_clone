@@ -1,0 +1,45 @@
+.section {
+    display: flex;
+    align-items: center;
+    min-width: 200px;
+    cursor: pointer;
+    color: gray;
+    border: 1px solid #c04b37;
+    border-radius: 30px;
+    box-shadow: 0px 2px 5px -2px rgba(0, 0, 0, 0.7);
+    transition: all 0.3s ease-in-out;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 10px;
+    padding: 15px;
+    background-color: white;
+    border-top: none;
+    border-right:none ;
+    border-left: none;
+  }
+  
+  .section:hover,
+  .section--selected {
+    background-color: whitesmoke;
+    border-width: 3px;
+    color: #c04b37;
+    font-weight: 800 !important;
+  }
+  
+  .section:hover {
+    border-radius: 20px;
+    padding: 5px;
+  }
+  
+  .section > h4 {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    color: gray;
+    text-transform: capitalize;
+  }
+  
+  .section:hover > h4 {
+    color: #c04b37;
+  }
+  

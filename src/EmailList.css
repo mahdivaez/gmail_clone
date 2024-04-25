@@ -1,0 +1,38 @@
+.emailList {
+  flex: 1;
+  overflow: scroll;
+  position: relative; /* Add position relative to contain fixed elements */
+
+}
+
+.emailList__settings {
+  display: flex;
+  justify-content: space-between;
+  top: 0;
+  position:;
+  background-color: white;
+  border-bottom: 1px solid whitesmoke;
+  z-index: 999;
+  padding-right: 10px;
+}
+
+.emailList__sections {
+  overflow: hidden;
+  top: 0;
+  display: flex;
+  border-bottom: 1px solid whitesmoke;
+  border-color: white;
+  z-index: 999;
+  top: 48px; /* Adjust top position to avoid overlapping with settings */
+
+  
+}
+
+.emailList__settingsLeft{
+    display: flex;
+    align-items: center;
+}
+
+ 
+
+
